@@ -1,68 +1,98 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
+<html lang="en">
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Anonymous proxy">
+  <title>Anonymous Proxy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
-          </li>
-        </ul>
-      </main>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
-      </footer>
-
+<body>
+  <header class="header" id="header">
+    <button class="header__button" type="button"><a class="header__button__link" href="https://adalab.es/"
+        title="Come to Adalab!"><img class="header__button__link__img" src="../assets/images/gatito-muestra.jpg"
+          alt="Dropdown menu icon"></a></button>
+  </header>
+  <main>
+      <section class="hero">
+          <h1 class="hero__title">Anonymous proxy</h1>
+          <p class="hero__p">All your <span class="capitalize">front end</span> solutions just one click away.</p>
+          <div class="hero__arrow">
+              <a class="hero__arrow__link" href="index.html#reasons"><img class="hero__arrow__link__img" src="" alt="Arrow pointing to the bottom of the page"></a>
+          </div>
+      </section>
+      <section class="tips">
+          <p class="tips__p--little">Insomnia tips</p>
+          <h2 class="tips__title capitalize">Looking through a window</h2>
+          <p class="tips__p--medium">
+              <span class="capitalize">front end</span> means inspection, discovery, growth and all those little things you
+              find on your way to improvement. A
+              look at a far beyond world full of possibilities through a tiny small window. Investigate as much as you can,
+              even when you think you know everything. Inspect every single step
+              you make, to learn from your mistakes and your achievements. Don't fear to discover a new world and all the
+              incredible features it can provide.
+          </p>
+          <button class="tips__button" type="button" value="Go"></button>
+      </section>
+      <section class="reasons" id="reasons">
+          <h2 class="reasons__title capitalize">3 reasons to purchase</h2>
+          <article class="reasons__article1">
+              <h3 class="reasons__article1__title">Make it easier</h3>
+              <p class="reasons__article1__p">All the front end solutions you can imagine just one click away</p>
+          </article>
+          <article class="reasons__article2">
+              <h3 class="reasons__article2__title">Make it fast</h3>
+              <p class="reasons__article2__p">Professionals available 24 hours a day and 365 days a year</p>
+          </article>
+          <article class="reasons__article3">
+              <h3 class="reasons__article3__title">Make it outstanding</h3>
+              <p class="reasons__article3__p">The best professionals at your service</p>
+          </article>
+          <button class="reasons__button" type="button" value="More reasons"></button>
+      </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__arrow">
+      <div class="">
+          <a class="footer__arrow__link" href="index.html#header"><img class="footer__arrow__link__img" src="" alt="Arrow pointing to the top of the page"></a>
+      </div>
     </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+    <nav class="footer__nav1">
+      <ul class="footer__nav1__list">
+        <li class="footer__nav1__list__item"><a class="footer__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="The best articles">Articles</a>
+        </li>
+        <li class="footer__nav1__list__item"><a class="footer__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="All available books">Books</a>
+        </li>
+        <li class="footer__nav1__list__item"><a class="footer__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="Next events">Events</a>
+        </li>
+        <li class="footer__nav1__list__item"><a class="footer__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="All reasons to purchase">Reasons</a>
+        </li>
+        <li class="footer__nav1__list__item"><a class="footer__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="Do you need a tip?">Tips</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="footer__nav2">
+      <ul>
+        <li class="footer__nav2__listitem"><a class="footer__nav2__listitem__link" href="https://adalab.es/" target="__blank" title="Follow us on Twitter">Twitter</a>
+        </li>
+        <li class="footer__nav2__listitem"><a class="footer__nav2__listitem__link" href="https://adalab.es/" target="__blank" title="Follow us on Instagram">Instagram</a>
+        </li>
+        <li class="footer__nav2__listitem"><a class="footer__nav2__listitem__link" href="https://adalab.es/" target="__blank" title="Follow us on Mastodon">Mastodon.social</a>
+        </li>
+      </ul>
+    </nav>
+    <p>&copy;2022</p>
+    <p>we<img src="" alt="Heart symbol">components</p>
+  </footer>
+</body>
+
 </html>
