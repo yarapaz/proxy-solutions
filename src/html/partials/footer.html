@@ -2,30 +2,41 @@
   <include src="./arrow.html" buttonClass="footer__arrow" aClass="footer__arrow__link" aRef="index.html#header"
     imgClass="footer__arrow__link__img" imgSrc="\assets\images\gatito-muestra.jpg"
     imgAlt="Arrow pointing to the top of the page"></include>
-  <nav class="footer__nav1">
-    <ul class="footer__nav1__list">
-      <include src="./list-item.html" liClass="footer__nav1__list__item" aClass="footer__nav1__list__item__link"
-        aTitle="The best articles" listItem="Articles"></include>
-      <include src="./list-item.html" liClass="footer__nav1__list__item" aClass="footer__nav1__list__item__link"
-        aTitle="All available books" listItem="Books"></include>
-      <include src="./list-item.html" liClass="footer__nav1__list__item" aClass="footer__nav1__list__item__link"
-        aTitle="Next events" listItem="Events"></include>
-      <include src="./list-item.html" liClass="footer__nav1__list__item" aClass="footer__nav1__list__item__link"
-        aTitle="All reasons to purchase" listItem="Reasons"></include>
-      <include src="./list-item.html" liClass="footer__nav1__list__item" aClass="footer__nav1__list__item__link"
-        aTitle="Do you need a tip?" listItem="Tips"></include>
-    </ul>
-  </nav>
-  <nav class="footer__nav2">
-    <ul>
-      <include src="./list-item.html" liClass="footer__nav2__listitem" aClass="footer__nav2__listitem__link"
-        aTitle="Follow us on Twitter" listItem="Twitter"></include>
-      <include src="./list-item.html" liClass="footer__nav2__listitem" aClass="footer__nav2__listitem__link"
-        aTitle="Follow us on Instagram" listItem="Instagram"></include>
-      <include src="./list-item.html" liClass="footer__nav2__listitem" aClass="footer__nav2__listitem__link"
-        aTitle="Follow us on Mastodon" listItem="Mastodon.social"></include>
-    </ul>
-  </nav>
-  <p>&copy;2022</p>
-  <p>we<img src="" alt="Heart symbol">components</p>
+  <div class="footer__navs__container">
+    <nav class="footer__navs__container__nav1">
+      <ul class="footer__navs__container__nav1__list">
+        <include src="./list-item.html" liClass="footer__navs__container__nav1__list__item"
+          aClass="footer__navs__container__nav1__list__item__link" aTitle="The best articles" listItem="Articles">
+        </include>
+        <include src="./list-item.html" liClass="footer__navs__container__nav1__list__item"
+          aClass="footer__navs__container__nav1__list__item__link" aTitle="All available books" listItem="Books">
+        </include>
+        <include src="./list-item.html" liClass="footer__navs__container__nav1__list__item"
+          aClass="footer__navs__container__nav1__list__item__link" aTitle="Next events" listItem="Events"></include>
+        <include src="./list-item.html" liClass="footer__navs__container__nav1__list__item"
+          aClass="footer__navs__container__nav1__list__item__link" aTitle="All reasons to purchase" listItem="Reasons">
+        </include>
+        <include src="./list-item.html" liClass="footer__navs__container__nav1__list__item"
+          aClass="footer__navs__container__nav1__list__item__link" aTitle="Do you need a tip?" listItem="Tips">
+        </include>
+      </ul>
+    </nav>
+    <nav class="footer__navs__container__nav2">
+      <ul class="footer__navs__container__nav2__list">
+        <include src="./list-item.html" liClass="footer__navs__container__nav2__list__item"
+          aClass="footer__navs__container__nav2__list__item__link" aTitle="Follow us on Twitter" listItem="Twitter">
+        </include>
+        <include src="./list-item.html" liClass="footer__navs__container__nav2__list__item"
+          aClass="footer__navs__container__nav2__list__item__link" aTitle="Follow us on Instagram" listItem="Instagram">
+        </include>
+        <include src="./list-item.html" liClass="footer__navs__container__nav2__list__item"
+          aClass="footer__navs__container__nav2__list__item__link" aTitle="Follow us on Mastodon"
+          listItem="Mastodon.social"></include>
+      </ul>
+    </nav>
+  </div>
+  <div class="footer__ps__container">
+    <p>&copy;2022</p>
+    <p>we<img src="" alt="Heart symbol">components</p>
+  </div>
 </footer>
