@@ -18,17 +18,17 @@
 
 <body>
   <header class="header" id="header">
-    <button class="header__button" type="button"><a class="header__button__link" href="https://adalab.es/"
-        title="Come to Adalab!"><img class="header__button__link__img" src="../assets/images/gatito-muestra.jpg"
-          alt="Dropdown menu icon"></a></button>
+    <button class="header__button" type="button">
+        <a class="header__button__link" href="https://adalab.es/" title="Come to Adalab!"><img class="header__button__link__img" src="\assets\images\ico-menu.png" alt="Dropdown menu icon"></a>
+    </button>
   </header>
   <main>
       <section class="hero">
           <h1 class="hero__title">Anonymous proxy</h1>
           <p class="hero__p">All your <span class="capitalize">front end</span> solutions just one click away.</p>
-          <div class="hero__arrow">
-              <a class="hero__arrow__link" href="index.html#reasons"><img class="hero__arrow__link__img" src="" alt="Arrow pointing to the bottom of the page"></a>
-          </div>
+          <button class="hero__arrow" type="button">
+              <a class="hero__arrow__link" href="index.html#reasons" title="Go to reasons"><img class="hero__arrow__link__img" src="" alt="Arrow pointing to the Reasons section"></a>
+          </button>
       </section>
       <section class="tips">
           <p class="tips__p--little">Insomnia tips</p>
@@ -61,37 +61,42 @@
       </section>
   </main>
   <footer class="footer">
-    <div class="footer__arrow">
-      <div class="">
-          <a class="footer__arrow__link" href="index.html#header"><img class="footer__arrow__link__img" src="" alt="Arrow pointing to the top of the page"></a>
-      </div>
+    <button class="footer__arrow" type="button">
+        <a class="footer__arrow__link" href="index.html#header" title="Return to the top of the page"><img class="footer__arrow__link__img" src="\assets\images\ico-arrow.png" alt="Arrow pointing to the top of the page"></a>
+    </button>
+    <div class="footer__navs__container">
+      <nav class="footer__navs__container__nav1">
+        <ul class="footer__navs__container__nav1__list">
+          <li class="footer__navs__container__nav1__list__item"><a class="footer__navs__container__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="The best articles">Articles</a>
+          </li>
+          <li class="footer__navs__container__nav1__list__item"><a class="footer__navs__container__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="All available books">Books</a>
+          </li>
+          <li class="footer__navs__container__nav1__list__item"><a class="footer__navs__container__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="Next events">Events</a>
+          </li>
+          <li class="footer__navs__container__nav1__list__item"><a class="footer__navs__container__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="All reasons to purchase">Reasons</a>
+          </li>
+          <li class="footer__navs__container__nav1__list__item"><a class="footer__navs__container__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="Do you need a tip?">Tips</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="footer__navs__container__nav2">
+        <ul class="footer__navs__container__nav2__list">
+          <li class="footer__navs__container__nav2__list__item"><a class="footer__navs__container__nav2__list__item__link" href="https://adalab.es/" target="__blank" title="Follow us on Twitter">Twitter</a>
+          </li>
+          <li class="footer__navs__container__nav2__list__item"><a class="footer__navs__container__nav2__list__item__link" href="https://adalab.es/" target="__blank" title="Follow us on Instagram">Instagram</a>
+          </li>
+          <li class="footer__navs__container__nav2__list__item"><a class="footer__navs__container__nav2__list__item__link" href="https://adalab.es/" target="__blank" title="Follow us on Mastodon">Mastodon.social</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <nav class="footer__nav1">
-      <ul class="footer__nav1__list">
-        <li class="footer__nav1__list__item"><a class="footer__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="The best articles">Articles</a>
-        </li>
-        <li class="footer__nav1__list__item"><a class="footer__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="All available books">Books</a>
-        </li>
-        <li class="footer__nav1__list__item"><a class="footer__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="Next events">Events</a>
-        </li>
-        <li class="footer__nav1__list__item"><a class="footer__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="All reasons to purchase">Reasons</a>
-        </li>
-        <li class="footer__nav1__list__item"><a class="footer__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="Do you need a tip?">Tips</a>
-        </li>
-      </ul>
-    </nav>
-    <nav class="footer__nav2">
-      <ul>
-        <li class="footer__nav2__listitem"><a class="footer__nav2__listitem__link" href="https://adalab.es/" target="__blank" title="Follow us on Twitter">Twitter</a>
-        </li>
-        <li class="footer__nav2__listitem"><a class="footer__nav2__listitem__link" href="https://adalab.es/" target="__blank" title="Follow us on Instagram">Instagram</a>
-        </li>
-        <li class="footer__nav2__listitem"><a class="footer__nav2__listitem__link" href="https://adalab.es/" target="__blank" title="Follow us on Mastodon">Mastodon.social</a>
-        </li>
-      </ul>
-    </nav>
-    <p>&copy;2022</p>
-    <p>we<img src="" alt="Heart symbol">components</p>
+    <div class="footer__ps__container">
+      <p class="footer__ps__container__p1">&copy;2022</p>
+      <p class="footer__ps__container__p2">we
+        <i class="fa-solid fa-heart"></i>
+        components
+      </p>
+    </div>
   </footer>
 </body>
 
