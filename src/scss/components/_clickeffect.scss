@@ -1,3 +1,6 @@
 .click-effect:hover {
   transform: scale(1.2);
 }
+.click-effect:active {
+  background-color: $orange;
+}

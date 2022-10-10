@@ -6,20 +6,20 @@
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto;
   grid-row-gap: 12px;
-  &__p--little {
+  &__title--small {
     font-family: $font-main;
     font-weight: 400;
     font-size: 1.4rem;
     color: $lightblue;
   }
-  &__title {
+  &__title--medium {
     font-family: $font-secondary;
     font-weight: 700;
     font-size: 2.4rem;
     color: $black;
     margin-bottom: 8px;
   }
-  &__p--medium {
+  &__p {
     font-family: $font-main;
     font-weight: 400;
     font-size: 1.8rem;
@@ -37,7 +37,7 @@
     border-color: $orange;
     background: none;
     border-radius: 22.5px;
-    padding-bottom: 1.5px;
+    padding-bottom: 1.2px;
     transition: all 0.2s ease-in-out;
     &__link {
       text-decoration: none;
@@ -48,14 +48,14 @@
   @media all and (min-width: 320px) {
     padding: 37px 0px 60px 39px;
     grid-row-gap: 18px;
-    &__p--little {
+    &__title--small {
       font-size: 1.4rem;
     }
-    &__title {
+    &__title--medium {
       font-size: 2.6rem;
       margin-bottom: 25px;
     }
-    &__p--medium {
+    &__p {
       font-size: 2rem;
       line-height: 1.5;
       padding-right: 39px;
@@ -70,13 +70,13 @@
   @media all and (min-width: 768px) {
     padding: 65px 0px 60px 275px;
     grid-row-gap: 16px;
-    &__p--little {
+    &__title--small {
       font-size: 1.6rem;
     }
-    &__title {
+    &__title--medium {
       font-size: 3.2rem;
     }
-    &__p--medium {
+    &__p {
       padding-right: 275px;
     }
     &__button {

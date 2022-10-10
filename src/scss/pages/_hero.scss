@@ -1,16 +1,14 @@
 .hero {
   width: 100%;
   height: 67.9vh;
-  max-height: 67.9vh;
   background-image: url("http://beta.adalab.es/modulo-1-evaluacion-final-Yarap07/assets/images/cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  gap: 10px;
   color: $white;
   text-align: center;
   padding-bottom: 34.1px;
@@ -21,6 +19,7 @@
     text-transform: uppercase;
     line-height: 1.31;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
   }
   &__p {
     font-size: 1.6rem;
@@ -28,7 +27,6 @@
     font-weight: 400;
     line-height: 1.19;
     margin: 0px 16.5px;
-    padding: 0px 20px;
   }
   &__arrow {
     width: 37.9px;
@@ -36,7 +34,7 @@
     background-color: $white;
     border: none;
     border-radius: 50%;
-    margin-top: 25.2px;
+    margin-top: 35.2px;
     &__link {
       width: 100%;
       padding: 10px 5px;
@@ -53,8 +51,6 @@
   }
   @media all and (min-width: 320px) {
     height: 96vh;
-    max-height: 96vh;
-    gap: 0px;
     padding-bottom: 45px;
     &__title {
       font-size: 8rem;
@@ -65,11 +61,14 @@
       font-size: 2.4rem;
       line-height: 1.17;
       margin: 0px 234.2px 0px 193.7px;
+      padding: 0px 23px;
     }
     &__arrow {
       width: 42.5px;
       height: 45px;
-      margin: 7px 390.6px 0px 342.9px;
+      margin-top: 7px;
+      position: relative;
+      right: 2.5%;
       &__link {
         width: 100%;
         padding: 13px 5px;
@@ -84,23 +83,24 @@
   }
   @media all and (min-width: 768px) {
     height: 97.6vh;
-    max-height: 97.6vh;
     padding-bottom: 13px;
     &__title {
       font-size: 10rem;
       line-height: 1.32;
-      margin: 0px 275px 3px 275px;
-      word-spacing: 5ch;
+      margin: 0px 0px 5px 0px;
+      word-spacing: 4ch;
       text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     }
     &__p {
       line-height: 1.17;
-      margin: 0px 275px 34px 275px;
+      margin: 0;
+      margin-bottom: 34px;
     }
     &__arrow {
       width: 45px;
       height: 45px;
-      margin: 0px 627px 0px 618px;
+      margin: 0px;
+      right: 0;
       &__link {
         &__img {
           padding: 0px 1px;

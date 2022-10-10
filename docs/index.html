@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Anonymous proxy">
+  <meta name="description" content="Anonymous proxy: your Front End solutions just one click away">
   <title>Anonymous Proxy</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
@@ -20,11 +20,11 @@
 <body>
   <header class="header">
     <button class="header__button" type="button">
-        <a class="header__button__link" href="https://adalab.es/" title="Come to Adalab!" target="_blank"><img class="header__button__link__img" src="http://beta.adalab.es/modulo-1-evaluacion-final-Yarap07/assets/images/ico-menu.png"
+        <a class="header__button__link" href="https://adalab.es/" title="Come to Adalab!" target="__blank"><img class="header__button__link__img" src="http://beta.adalab.es/modulo-1-evaluacion-final-Yarap07/assets/images/ico-menu.png"
                 alt="Dropdown menu icon"></a>
     </button>
   </header>
-  <main>
+  <main class="main">
       <section class="hero" id="hero">
           <h1 class="hero__title">Anonymous proxy</h1>
           <p class="hero__p">All your <span class="capitalize">front end</span> solutions just one click away</p>
@@ -34,9 +34,9 @@
           </button>
       </section>
       <section class="tips">
-          <p class="tips__p--little capitalize">Insomnia tips</p>
-          <h2 class="tips__title capitalize">Looking through a window</h2>
-          <p class="tips__p--medium">
+          <h4 class="tips__title--small capitalize">Insomnia tips</h4>
+          <h2 class="tips__title--medium capitalize">Looking through a window</h2>
+          <p class="tips__p">
               <span class="capitalize">front end</span> means inspection, discovery, growth and all those little things you
               find on your way to improvement. A
               look at a far beyond world full of possibilities through a tiny small window. Investigate as much as you can,
@@ -45,26 +45,28 @@
               incredible features it can provide.
           </p>
           <button class="tips__button click-effect" type="button"><a class="tips__button__link" href="https://adalab.es/"
-                  target="_blank"> Go</a></button>
+                  target="_blank">Go</a>
+          </button>
       </section>
       <section class="reasons" id="reasons">
           <h2 class="reasons__title capitalize">3 reasons to purchase</h2>
-          <section class="reasons__container">
-              <article class="reasons__container__article article-1">
-                  <h3 class="reasons__container__article__title">Make it easier</h3>
-                  <p class="reasons__container__article__p">All the front end solutions you can imagine just one click away</p>
-              </article>
-              <article class="reasons__container__article article-2">
-                  <h3 class="reasons__container__article__title">Make it fast</h3>
-                  <p class="reasons__container__article__p">Professionals available 24 hours a day and 365 days a year</p>
-              </article>
-              <article class="reasons__container__article article-3">
-                  <h3 class="reasons__container__article__title">Make it better</h3>
-                  <p class="reasons__container__article__p">The best professionals at your service</p>
-              </article>
-          </section>
-          <button class="reasons__button click-effect capitalize" type="button"><a class="reasons__button__link" href="https://adalab.es/"
-                  target="_blank">More reasons</a></button>
+          <ul class="reasons__list">
+              <li class="reasons__list__item">
+                  <h3 class="reasons__list__item__title">Make it easier</h3>
+                  <p class="reasons__list__item__p">All the Front End solutions you can imagine just one click away</p>
+              </li>
+              <li class="reasons__list__item">
+                  <h3 class="reasons__list__item__title">Make it faster</h3>
+                  <p class="reasons__list__item__p">Professionals available 24 hours a day and 365 days a year</p>
+              </li>
+              <li class="reasons__list__item">
+                  <h3 class="reasons__list__item__title">Make it better</h3>
+                  <p class="reasons__list__item__p">The best professionals in the world at your service</p>
+              </li>
+          </ul>
+          <button class="reasons__button click-effect" type="button"><a class="reasons__button__link" href="https://adalab.es/"
+                  target="_blank">More reasons</a>
+          </button>
       </section>
   </main>
   <footer class="footer">
@@ -72,37 +74,35 @@
         <a class="footer__arrow__link" href="index.html#hero" title="Return to the top of the page" target="_self"><img class="footer__arrow__link__img" src="http://beta.adalab.es/modulo-1-evaluacion-final-Yarap07/assets/images/ico-arrow.png"
                 alt="Arrow pointing to the top of the page"></a>
     </button>
-    <div class="footer__navs__container">
-      <nav class="footer__navs__container__nav1">
-        <ul class="footer__navs__container__nav1__list">
-          <li class="footer__navs__container__nav1__list__item"><a class="footer__navs__container__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="The best articles">Articles</a>
+    <div class="footer__navs--container">
+      <nav class="footer__navs--container__nav1">
+        <ul class="footer__navs--container__nav1__list">
+          <li class="footer__navs--container__nav1__list__item"><a class="footer__navs--container__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="The best articles">Articles</a>
           </li>
-          <li class="footer__navs__container__nav1__list__item"><a class="footer__navs__container__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="All available books">Books</a>
+          <li class="footer__navs--container__nav1__list__item"><a class="footer__navs--container__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="All available books">Books</a>
           </li>
-          <li class="footer__navs__container__nav1__list__item"><a class="footer__navs__container__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="Next events">Events</a>
+          <li class="footer__navs--container__nav1__list__item"><a class="footer__navs--container__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="Next events">Events</a>
           </li>
-          <li class="footer__navs__container__nav1__list__item"><a class="footer__navs__container__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="All reasons to purchase">Reasons</a>
+          <li class="footer__navs--container__nav1__list__item"><a class="footer__navs--container__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="All reasons to purchase">Reasons</a>
           </li>
-          <li class="footer__navs__container__nav1__list__item"><a class="footer__navs__container__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="Do you need a tip?">Tips</a>
+          <li class="footer__navs--container__nav1__list__item"><a class="footer__navs--container__nav1__list__item__link" href="https://adalab.es/" target="__blank" title="Do you need a tip?">Tips</a>
           </li>
         </ul>
       </nav>
-      <nav class="footer__navs__container__nav2">
-        <ul class="footer__navs__container__nav2__list">
-          <li class="footer__navs__container__nav2__list__item"><a class="footer__navs__container__nav2__list__item__link" href="https://adalab.es/" target="__blank" title="Follow us on Twitter">Twitter</a>
+      <nav class="footer__navs--container__nav2">
+        <ul class="footer__navs--container__nav2__list">
+          <li class="footer__navs--container__nav2__list__item"><a class="footer__navs--container__nav2__list__item__link" href="https://adalab.es/" target="__blank" title="Follow us on Twitter">Twitter</a>
           </li>
-          <li class="footer__navs__container__nav2__list__item"><a class="footer__navs__container__nav2__list__item__link" href="https://adalab.es/" target="__blank" title="Follow us on Instagram">Instagram</a>
+          <li class="footer__navs--container__nav2__list__item"><a class="footer__navs--container__nav2__list__item__link" href="https://adalab.es/" target="__blank" title="Follow us on Instagram">Instagram</a>
           </li>
-          <li class="footer__navs__container__nav2__list__item"><a class="footer__navs__container__nav2__list__item__link" href="https://adalab.es/" target="__blank" title="Follow us on Mastodon">Mastodon.social</a>
+          <li class="footer__navs--container__nav2__list__item"><a class="footer__navs--container__nav2__list__item__link" href="https://adalab.es/" target="__blank" title="Follow us on Mastodon">Mastodon.social</a>
           </li>
         </ul>
       </nav>
     </div>
-    <div class="footer__ps__container">
-      <p class="footer__ps__container__p1">&copy;2022</p>
-      <p class="footer__ps__container__p2">we
-        <i class="fa-solid fa-heart"></i>
-        components
+    <div class="footer__ps--container">
+      <p class="footer__ps--container__p1">&copy;2022</p>
+      <p class="footer__ps--container__p2">we <i class="fa-solid fa-heart"></i> components
       </p>
     </div>
   </footer>

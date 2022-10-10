@@ -1,7 +1,7 @@
 .reasons {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: auto auto auto;
   align-items: center;
   text-align: center;
   background-color: $lighterblue;
@@ -14,8 +14,11 @@
     color: $black;
     padding: 0px 15px 49px 15px;
   }
-  &__container {
-    &__article {
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    &__item {
       font-size: 1.8rem;
       color: $black;
       padding: 0px 70px 44px 70px;
@@ -56,12 +59,13 @@
       font-size: 2.6rem;
       padding-bottom: 46px;
     }
-    &__container {
+    &__list {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: auto;
       grid-column-gap: 27.7px;
-      &__article {
+      padding: 0px 40px 0px 35.7px;
+      &__item {
         padding: 0px 0px 0px 0px;
         &__title {
           font-size: 2.4rem;
@@ -74,16 +78,11 @@
           margin-bottom: 57px;
         }
       }
-      .article-1 {
-        margin-left: 35.7px;
-      }
-      .article-3 {
-        margin-right: 40px;
-      }
     }
     &__button {
       width: 210px;
-      transform: translateX(100%);
+      position: relative;
+      left: 28%;
       &__link {
         padding: 15px 40px;
       }
@@ -95,9 +94,9 @@
       font-size: 3.2rem;
       padding-bottom: 43px;
     }
-    &__container {
+    &__list {
       grid-column-gap: 26.2px;
-      &__article {
+      &__item {
         padding: 0px 40px;
         &__title {
           font-size: 2.4rem;
@@ -105,18 +104,13 @@
           margin-bottom: 18px;
         }
       }
-      .article-1 {
-        margin-left: 81.2px;
-      }
-      .article-3 {
-        margin-right: 85px;
-      }
     }
     &__button {
-      width: 210px;
-      transform: translateX(223%);
+      width: 255px;
+      text-transform: capitalize;
+      left: 35%;
       &__link {
-        padding: 15px 40px;
+        padding: 15px 60px;
       }
     }
   }

@@ -1,17 +1,19 @@
 <section class="reasons" id="reasons">
     <h2 class="reasons__title capitalize">3 reasons to purchase</h2>
-    <section class="reasons__container">
-        <include src="./article.html" articleClass="reasons__container__article article-1"
-            titleClass="reasons__container__article__title" title="Make it easier"
-            pClass="reasons__container__article__p" p="All the front end solutions you can imagine just one click away">
+    <ul class="reasons__list">
+        <include src="./list-item.html" liClass="reasons__list__item" titleClass="reasons__list__item__title"
+            title="Make it easier" pClass="reasons__list__item__p"
+            p="All the Front End solutions you can imagine just one click away">
         </include>
-        <include src="./article.html" articleClass="reasons__container__article article-2"
-            titleClass="reasons__container__article__title" title="Make it fast" pClass="reasons__container__article__p"
-            p="Professionals available 24 hours a day and 365 days a year"></include>
-        <include src="./article.html" articleClass="reasons__container__article article-3"
-            titleClass="reasons__container__article__title" title="Make it better"
-            pClass="reasons__container__article__p" p="The best professionals at your service"></include>
-    </section>
-    <include src="./text-button.html" buttonClass="reasons__button click-effect capitalize"
-        aClass="reasons__button__link" buttonText="More reasons"></include>
+        <include src="./list-item.html" liClass="reasons__list__item" titleClass="reasons__list__item__title"
+            title="Make it faster" pClass="reasons__list__item__p"
+            p="Professionals available 24 hours a day and 365 days a year">
+        </include>
+        <include src="./list-item.html" liClass="reasons__list__item" titleClass="reasons__list__item__title"
+            title="Make it better" pClass="reasons__list__item__p"
+            p="The best professionals in the world at your service">
+        </include>
+    </ul>
+    <include src="./text-button.html" buttonClass="reasons__button click-effect" aClass="reasons__button__link"
+        buttonText="More reasons"></include>
 </section>
