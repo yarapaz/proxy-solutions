@@ -14,27 +14,29 @@
     color: $black;
     padding: 0px 15px 49px 15px;
   }
-  &__article {
-    font-size: 1.8rem;
-    color: $black;
-    padding: 0px 70px 44px 70px;
-    &__title {
-      font-family: $font-secondary;
-      font-weight: 700;
-      line-height: 1.67;
-    }
-    &__p {
-      font-family: $font-main;
-      font-weight: 400;
-      line-height: 1.67;
+  &__container {
+    &__article {
+      font-size: 1.8rem;
+      color: $black;
+      padding: 0px 70px 44px 70px;
+      &__title {
+        font-family: $font-secondary;
+        font-weight: 700;
+        line-height: 1.67;
+      }
+      &__p {
+        font-family: $font-main;
+        font-weight: 400;
+        line-height: 1.67;
+      }
     }
   }
   &__button {
     background-color: $orange;
     border: none;
     border-radius: 22.5px;
-    width: 57.7%;
-    height: 5.65vh;
+    width: 184px;
+    height: 45px;
     margin: 0px 68px;
     transition: all 0.2s ease-in-out;
     &__link {
@@ -44,6 +46,78 @@
       font-size: 2rem;
       color: $white;
       padding: 15px;
+    }
+  }
+  @media all and (min-width: 320px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    padding-top: 36px;
+    &__title {
+      font-size: 2.6rem;
+      padding-bottom: 46px;
+    }
+    &__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      grid-column-gap: 27.7px;
+      &__article {
+        padding: 0px 0px 0px 0px;
+        &__title {
+          font-size: 2.4rem;
+          line-height: 1.25;
+          margin-bottom: 18px;
+        }
+        &__p {
+          font-size: 2rem;
+          line-height: 1.5;
+          margin-bottom: 57px;
+        }
+      }
+      .article-1 {
+        margin-left: 35.7px;
+      }
+      .article-3 {
+        margin-right: 40px;
+      }
+    }
+    &__button {
+      width: 210px;
+      transform: translateX(100%);
+      &__link {
+        padding: 15px 40px;
+      }
+    }
+  }
+  @media all and (min-width: 768px) {
+    padding-top: 61px;
+    &__title {
+      font-size: 3.2rem;
+      padding-bottom: 43px;
+    }
+    &__container {
+      grid-column-gap: 26.2px;
+      &__article {
+        padding: 0px 40px;
+        &__title {
+          font-size: 2.4rem;
+          line-height: 1.25;
+          margin-bottom: 18px;
+        }
+      }
+      .article-1 {
+        margin-left: 81.2px;
+      }
+      .article-3 {
+        margin-right: 85px;
+      }
+    }
+    &__button {
+      width: 210px;
+      transform: translateX(223%);
+      &__link {
+        padding: 15px 40px;
+      }
     }
   }
 }

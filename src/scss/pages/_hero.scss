@@ -90,7 +90,7 @@
       font-size: 10rem;
       line-height: 1.32;
       margin: 0px 275px 3px 275px;
-      word-spacing: 4ch;
+      word-spacing: 5ch;
       text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     }
     &__p {
@@ -100,16 +100,12 @@
     &__arrow {
       width: 45px;
       height: 45px;
-      margin-top: 0px;
+      margin: 0px 627px 0px 618px;
       &__link {
         &__img {
-          width: 75%;
-          height: 57%;
-          padding: 0px 6px;
-          padding-top: 7px;
-          position: relative;
-          right: 0.76px;
-          top: 0.8px;
+          padding: 0px 1px;
+          right: 0.3px;
+          top: 10px;
         }
       }
     }

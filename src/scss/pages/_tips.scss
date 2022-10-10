@@ -28,8 +28,8 @@
     margin-bottom: 14px;
   }
   &__button {
-    width: 26.3%;
-    height: 5.65vh;
+    width: 76px;
+    height: 45px;
     font-family: $font-main;
     font-weight: 500;
     font-size: 2rem;
@@ -43,6 +43,47 @@
       text-decoration: none;
       color: $orange;
       padding: 10px 20px;
+    }
+  }
+  @media all and (min-width: 320px) {
+    padding: 37px 0px 60px 39px;
+    grid-row-gap: 18px;
+    &__p--little {
+      font-size: 1.4rem;
+    }
+    &__title {
+      font-size: 2.6rem;
+      margin-bottom: 25px;
+    }
+    &__p--medium {
+      font-size: 2rem;
+      line-height: 1.5;
+      padding-right: 39px;
+    }
+    &__button {
+      width: 91px;
+      &__link {
+        padding: 10px 30px;
+      }
+    }
+  }
+  @media all and (min-width: 768px) {
+    padding: 65px 0px 60px 275px;
+    grid-row-gap: 16px;
+    &__p--little {
+      font-size: 1.6rem;
+    }
+    &__title {
+      font-size: 3.2rem;
+    }
+    &__p--medium {
+      padding-right: 275px;
+    }
+    &__button {
+      width: 160px;
+      &__link {
+        padding: 10px 60px;
+      }
     }
   }
 }

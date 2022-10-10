@@ -100,7 +100,6 @@
     gap: 120px;
     &__arrow {
       bottom: 25.5vh;
-      transform: translate(800%, 0%);
     }
     &__navs__container {
       flex-direction: row;
@@ -141,7 +140,6 @@
     align-items: center;
     gap: 70px;
     &__arrow {
-      transform: translate(-20%, 0%);
     }
     &__navs__container {
       gap: 70px;
