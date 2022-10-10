@@ -20,6 +20,7 @@
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.31;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   }
   &__p {
     font-size: 1.6rem;
@@ -30,25 +31,87 @@
     padding: 0px 20px;
   }
   &__arrow {
-    width: 12%;
-    height: 4.65vh;
+    width: 37.9px;
+    height: 37px;
     background-color: $white;
     border: none;
     border-radius: 50%;
     margin-top: 25.2px;
     &__link {
       width: 100%;
-      padding: 10px;
+      padding: 10px 5px;
+      position: relative;
+      bottom: 4px;
       &__img {
         width: 70%;
         height: 55%;
-        transform: scale(0.9, 0.7);
-        padding-right: 9px;
-        padding-top: 7px;
+        transform: scale(0.7, 0.5);
+        position: relative;
+        top: 7px;
       }
     }
   }
   @media all and (min-width: 320px) {
-    height: 768px;
+    height: 96vh;
+    max-height: 96vh;
+    gap: 0px;
+    padding-bottom: 45px;
+    &__title {
+      font-size: 8rem;
+      line-height: 1.33;
+      margin: 0px 78.4px 20px 36.8px;
+    }
+    &__p {
+      font-size: 2.4rem;
+      line-height: 1.17;
+      margin: 0px 234.2px 0px 193.7px;
+    }
+    &__arrow {
+      width: 42.5px;
+      height: 45px;
+      margin: 7px 390.6px 0px 342.9px;
+      &__link {
+        width: 100%;
+        padding: 13px 5px;
+        position: relative;
+        bottom: 6px;
+        &__img {
+          top: 9px;
+          transform: scale(0.7, 0.55);
+        }
+      }
+    }
+  }
+  @media all and (min-width: 768px) {
+    height: 97.6vh;
+    max-height: 97.6vh;
+    padding-bottom: 13px;
+    &__title {
+      font-size: 10rem;
+      line-height: 1.32;
+      margin: 0px 275px 3px 275px;
+      word-spacing: 4ch;
+      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    &__p {
+      line-height: 1.17;
+      margin: 0px 275px 34px 275px;
+    }
+    &__arrow {
+      width: 45px;
+      height: 45px;
+      margin-top: 0px;
+      &__link {
+        &__img {
+          width: 75%;
+          height: 57%;
+          padding: 0px 6px;
+          padding-top: 7px;
+          position: relative;
+          right: 0.76px;
+          top: 0.8px;
+        }
+      }
+    }
   }
 }
