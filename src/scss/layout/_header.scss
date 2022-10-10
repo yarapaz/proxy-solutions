@@ -11,10 +11,15 @@
     border: none;
     &__link {
       text-decoration: none;
+      padding: 10px;
       &__img {
         width: 35%;
         height: 30%;
       }
     }
+  }
+  @media all and (max-width: 768px) {
+    width: 5.5vw;
+    height: 5.5vh;
   }
 }

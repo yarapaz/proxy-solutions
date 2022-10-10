@@ -93,4 +93,42 @@
       }
     }
   }
+  @media all and (max-width: 768px) {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 120px;
+    &__navs__container {
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 140px;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      &__nav1 {
+        &__list {
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          padding: 0px 0px;
+        }
+      }
+      &__nav2 {
+        &__list {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          padding: 0px 39px;
+        }
+      }
+    }
+    &__ps__container {
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 15px 0px 57px 39px;
+      &__p1 {
+        line-height: 1.5;
+      }
+    }
+  }
 }
