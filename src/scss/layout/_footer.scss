@@ -10,8 +10,8 @@
   position: relative;
   bottom: 0;
   &__arrow {
-    width: 14%;
-    height: 5.8vh;
+    width: 45px;
+    height: 45px;
     background-color: $white;
     border: none;
     border-radius: 50%;
@@ -19,6 +19,7 @@
     bottom: 57.5vh;
     animation-name: color;
     animation-duration: 5s;
+    box-shadow: 0.5px 2px rgb(52, 51, 51);
     &__link {
       width: 100%;
       padding: 10px;
@@ -93,10 +94,14 @@
       }
     }
   }
-  @media all and (max-width: 768px) {
+  @media all and (min-width: 320px) {
     flex-direction: row-reverse;
     justify-content: flex-end;
     gap: 120px;
+    &__arrow {
+      bottom: 25.5vh;
+      transform: translate(800%, 0%);
+    }
     &__navs__container {
       flex-direction: row;
       justify-content: flex-start;
@@ -129,6 +134,20 @@
       &__p1 {
         line-height: 1.5;
       }
+    }
+  }
+  @media all and (min-width: 767px) {
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    &__arrow {
+      transform: translate(-20%, 0%);
+    }
+    &__navs__container {
+      gap: 70px;
+    }
+    &__ps__container {
+      padding-left: 0px;
     }
   }
 }
