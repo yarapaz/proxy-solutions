@@ -36,12 +36,14 @@
     width: 57.7%;
     height: 5.65vh;
     margin: 0px 68px;
+    transition: all 0.2s ease-in-out;
     &__link {
       text-decoration: none;
       font-family: $font-main;
       font-weight: 500;
       font-size: 2rem;
       color: $white;
+      padding: 15px;
     }
   }
 }

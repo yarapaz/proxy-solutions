@@ -38,6 +38,7 @@
     background: none;
     border-radius: 22.5px;
     padding-bottom: 1.5px;
+    transition: all 0.2s ease-in-out;
     &__link {
       text-decoration: none;
       color: $orange;
