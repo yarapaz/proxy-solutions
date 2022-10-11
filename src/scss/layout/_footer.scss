@@ -20,15 +20,14 @@
     animation-duration: 5s;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
     &__link {
-      width: 100%;
       padding: 13px 10px;
       position: relative;
-      bottom: 13%;
+      bottom: 6px;
       &__img {
         width: 20.6px;
         height: 24px;
         position: relative;
-        top: 16.5%;
+        top: 8px;
       }
     }
   }
@@ -49,7 +48,7 @@
         justify-content: center;
         align-items: center;
         gap: 14px;
-        padding: 7px 0px;
+        padding: 8px 0px;
         &__item {
           &__link {
             text-decoration: none;
@@ -66,7 +65,7 @@
         justify-content: center;
         align-items: center;
         gap: 14px;
-        padding: 7px 0px;
+        padding: 8px 0px;
         &__item {
           &__link {
             text-decoration: none;
@@ -85,11 +84,11 @@
     line-height: 2.14;
     font-size: 1.4rem;
     color: $white;
-    padding: 10px;
+    padding-bottom: 10px;
     &__p2 {
       .fa-heart {
         color: $orange;
-        font-size: 1.2rem;
+        font-size: 1.15rem;
         transform: scale(1, 0.8);
       }
     }
@@ -97,14 +96,13 @@
   @media all and (min-width: 320px) {
     flex-direction: row-reverse;
     justify-content: flex-end;
-    gap: 125px;
+    gap: 128px;
     &__arrow {
       bottom: 90.1%;
       transform: translateX(815%);
     }
     &__navs--container {
       flex-direction: row;
-      justify-content: flex-start;
       align-items: flex-start;
       gap: 130px;
       margin-top: 50px;
@@ -120,14 +118,16 @@
         &__list {
           justify-content: flex-start;
           align-items: flex-start;
-          padding: 0px 39px;
+          padding: 0px 0px;
+          padding-left: 39px;
         }
       }
     }
     &__ps--container {
       justify-content: flex-start;
       align-items: flex-start;
-      padding: 0px 0px 45px 39px;
+      padding: 0px 0px 80px 39px;
+      margin: 0;
       &__p1 {
         line-height: 1.5;
       }
@@ -137,15 +137,15 @@
     justify-content: center;
     align-items: center;
     gap: 70px;
-    padding-left: 30px;
     &__arrow {
-      transform: translateX(-23%);
+      transform: translateX(0%);
     }
     &__navs--container {
       gap: 80px;
+      padding-right: 17px;
     }
     &__ps--container {
-      padding-left: 0px;
+      padding-left: 0;
       &__p1 {
         line-height: 2.14;
       }

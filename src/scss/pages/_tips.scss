@@ -1,6 +1,7 @@
 .tips {
   width: 100%;
-  padding: 61.9px 15px 45px 15px;
+  padding: 61.9px 15px 0px 15px;
+  margin-bottom: 45px;
   background-color: $white;
   display: grid;
   grid-template-columns: 1fr;
@@ -37,7 +38,6 @@
     border-color: $orange;
     background: none;
     border-radius: 22.5px;
-    padding-bottom: 1.2px;
     transition: all 0.2s ease-in-out;
     &__link {
       text-decoration: none;
@@ -46,14 +46,15 @@
     }
   }
   @media all and (min-width: 320px) {
-    padding: 37px 0px 60px 39px;
+    padding: 37px 0px 0px 39px;
     grid-row-gap: 18px;
+    margin-bottom: 60px;
     &__title--small {
       font-size: 1.4rem;
     }
     &__title--medium {
       font-size: 2.6rem;
-      margin-bottom: 25px;
+      margin-bottom: 19px;
     }
     &__p {
       font-size: 2rem;
@@ -68,8 +69,9 @@
     }
   }
   @media all and (min-width: 768px) {
-    padding: 65px 0px 60px 275px;
+    padding: 65px 0px 0px 275px;
     grid-row-gap: 15px;
+    margin-bottom: 60px;
     &__title--small {
       font-size: 1.6rem;
     }
@@ -82,7 +84,7 @@
     &__button {
       width: 160px;
       &__link {
-        padding: 10px 60px;
+        padding: 10px 65px;
       }
     }
   }
