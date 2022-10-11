@@ -1,24 +1,25 @@
 .tips {
   width: 100%;
-  padding: 61.9px 15px 0px 15px;
-  margin-bottom: 45px;
+  margin-top: 20.3%;
+  padding: 0% 4.7%;
+  margin-bottom: 14%;
   background-color: $white;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto;
-  grid-row-gap: 12px;
   &__title--small {
     font-family: $font-main;
     font-weight: 400;
     font-size: 1.4rem;
     color: $lightblue;
+    margin-bottom: 12px;
   }
   &__title--medium {
     font-family: $font-secondary;
     font-weight: 700;
     font-size: 2.4rem;
     color: $black;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
   }
   &__p {
     font-family: $font-main;
@@ -26,7 +27,7 @@
     font-size: 1.8rem;
     color: $darkgrey;
     line-height: 1.67;
-    margin-bottom: 14px;
+    margin-bottom: 26px;
   }
   &__button {
     width: 76px;
@@ -46,20 +47,22 @@
     }
   }
   @media all and (min-width: 320px) {
-    padding: 37px 0px 0px 39px;
-    grid-row-gap: 18px;
+    margin-top: 4.8%;
+    margin-bottom: 10%;
+    padding: 0% 5.1%;
     margin-bottom: 60px;
     &__title--small {
       font-size: 1.4rem;
+      margin-bottom: 18px;
     }
     &__title--medium {
       font-size: 2.6rem;
-      margin-bottom: 19px;
+      margin-bottom: 39px;
     }
     &__p {
       font-size: 2rem;
       line-height: 1.5;
-      padding-right: 39px;
+      margin-bottom: 27px;
     }
     &__button {
       width: 91px;
@@ -69,17 +72,19 @@
     }
   }
   @media all and (min-width: 768px) {
-    padding: 65px 0px 0px 275px;
-    grid-row-gap: 15px;
-    margin-bottom: 60px;
+    margin-top: 5.8%;
+    margin-bottom: 4.7%;
+    padding: 0% 21.5%;
     &__title--small {
       font-size: 1.6rem;
+      margin-bottom: 17px;
     }
     &__title--medium {
       font-size: 3.2rem;
+      margin-bottom: 40px;
     }
     &__p {
-      padding-right: 275px;
+      margin-bottom: 30px;
     }
     &__button {
       width: 160px;

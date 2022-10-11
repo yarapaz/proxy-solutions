@@ -6,14 +6,15 @@
   align-items: center;
   text-align: center;
   background-color: $lighterblue;
-  padding-top: 29px;
-  padding-bottom: 60px;
+  padding-top: 9%;
+  padding-bottom: 18.8%;
   &__title {
     font-family: $font-secondary;
     font-weight: 700;
     font-size: 2.4rem;
     color: $black;
-    padding: 0px 15px 49px 15px;
+    padding: 0% 4.7%;
+    margin-bottom: 15.5%;
   }
   &__list {
     display: grid;
@@ -22,7 +23,8 @@
     &__item {
       font-size: 1.8rem;
       color: $black;
-      padding: 0px 70px 44px 70px;
+      padding: 0% 22%;
+      margin-bottom: 13.8%;
       line-height: 1.67;
       &__title {
         font-family: $font-secondary;
@@ -41,7 +43,8 @@
     border-radius: 22.5px;
     width: 184px;
     height: 45px;
-    margin: 0px 68px;
+    margin: 0% 21.5%;
+    margin-top: 3px;
     transition: all 0.2s ease-in-out;
     &__link {
       text-decoration: none;
@@ -53,19 +56,23 @@
     }
   }
   @media all and (min-width: 320px) {
-    padding-top: 36px;
+    padding-top: 4.4%;
+    padding-bottom: 7.9%;
     &__title {
       font-size: 2.6rem;
-      padding-bottom: 55px;
+      padding: 0% 20.9%;
+      margin-bottom: 7.2%;
     }
     &__list {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: auto;
       grid-column-gap: 27.7px;
-      padding: 0px 40px 0px 35.7px;
+      padding-left: 4.7%;
+      padding-right: 5.2%;
       &__item {
-        padding: 0px 0px 0px 0px;
+        padding: 0% 0%;
+        margin: 0% 0%;
         &__title {
           font-size: 2.4rem;
           line-height: 1.25;
@@ -81,32 +88,41 @@
     &__button {
       width: 210px;
       position: relative;
-      left: 28%;
+      left: 36.5%;
+      margin: 0%;
       &__link {
         padding: 15px 40px;
       }
     }
   }
   @media all and (min-width: 768px) {
-    padding-top: 61px;
+    padding-top: 4.8%;
+    padding-bottom: 4.7%;
     &__title {
       font-size: 3.2rem;
+      padding: 0% 21.5%;
+      margin-bottom: 3.6%;
     }
     &__list {
       grid-column-gap: 26.2px;
+      padding-left: 6.3%;
+      padding-right: 6.5%;
       &__item {
-        padding: 0px 40px;
+        padding: 0% 12%;
         &__title {
           font-size: 2.4rem;
           line-height: 1.25;
           margin-bottom: 18px;
+        }
+        &__p {
+          margin-bottom: 21%;
         }
       }
     }
     &__button {
       width: 255px;
       text-transform: capitalize;
-      left: 35%;
+      left: 40%;
       &__link {
         padding: 15px 60px;
       }

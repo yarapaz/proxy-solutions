@@ -8,6 +8,8 @@
   font-family: $font-main;
   font-weight: 400;
   position: relative;
+  padding-top: 20%;
+  padding-bottom: 15%;
   &__arrow {
     width: 45px;
     height: 45px;
@@ -37,7 +39,6 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-top: 65px;
     margin-bottom: 32px;
     font-size: 1.6rem;
     &__nav1 {
@@ -80,11 +81,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 36px;
     line-height: 2.14;
     font-size: 1.4rem;
     color: $white;
-    padding-bottom: 10px;
     &__p2 {
       .fa-heart {
         color: $orange;
@@ -96,17 +95,18 @@
   @media all and (min-width: 320px) {
     flex-direction: row-reverse;
     justify-content: flex-end;
+    align-items: flex-start;
     gap: 128px;
+    padding: 6.5% 5.1% 5.2% 5.1%;
     &__arrow {
       bottom: 90.1%;
-      transform: translateX(815%);
+      transform: translateX(730%);
     }
     &__navs--container {
       flex-direction: row;
       align-items: flex-start;
-      gap: 130px;
-      margin-top: 50px;
-      margin-bottom: 40px;
+      gap: 160px;
+      margin: 0;
       &__nav1 {
         &__list {
           justify-content: flex-start;
@@ -119,35 +119,33 @@
           justify-content: flex-start;
           align-items: flex-start;
           padding: 0px 0px;
-          padding-left: 39px;
         }
       }
     }
     &__ps--container {
       justify-content: flex-start;
       align-items: flex-start;
-      padding: 0px 0px 80px 39px;
-      margin: 0;
       &__p1 {
-        line-height: 1.5;
+        line-height: 1;
+        margin-bottom: 2px;
       }
     }
   }
   @media all and (min-width: 768px) {
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 70px;
+    padding: 3.9% 0% 3.5% 0%;
     &__arrow {
       transform: translateX(0%);
     }
     &__navs--container {
-      gap: 80px;
-      padding-right: 17px;
+      gap: 120px;
     }
     &__ps--container {
-      padding-left: 0;
+      padding-bottom: 0%;
       &__p1 {
-        line-height: 2.14;
+        margin-bottom: 5px;
       }
     }
   }
