@@ -2,7 +2,7 @@
 
 Anonymous Proxy is a HTML and SASS (SCSS) web layout project built and developed by Yara Paz Gordillo (future Front End Developer) as part of her final evaluation of Adalab's Web Programming Bootcamp Module 1.
 
-In this project you will find a complete responsive Fron-End solutions website following the subsequent guidelines:
+In this project you will find a complete responsive Front-End solutions website following the subsequent guidelines:
 
 1. "Header" section must be fixed and follow us as we scroll down the page.
 
