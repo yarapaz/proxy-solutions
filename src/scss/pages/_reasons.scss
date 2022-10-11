@@ -1,4 +1,5 @@
 .reasons {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto;
@@ -22,15 +23,14 @@
       font-size: 1.8rem;
       color: $black;
       padding: 0px 70px 44px 70px;
+      line-height: 1.67;
       &__title {
         font-family: $font-secondary;
         font-weight: 700;
-        line-height: 1.67;
       }
       &__p {
         font-family: $font-main;
         font-weight: 400;
-        line-height: 1.67;
       }
     }
   }
@@ -48,12 +48,10 @@
       font-weight: 500;
       font-size: 2rem;
       color: $white;
-      padding: 15px;
+      padding: 15px 28px;
     }
   }
   @media all and (min-width: 320px) {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
     padding-top: 36px;
     &__title {
       font-size: 2.6rem;
