@@ -92,7 +92,7 @@
       }
     }
   }
-  @media all and (min-width: 320px) {
+  @media all and (min-width: 768px) {
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: flex-start;
@@ -100,7 +100,7 @@
     padding: 6.5% 5.1% 5.2% 5.1%;
     &__arrow {
       bottom: 90.1%;
-      transform: translateX(730%);
+      transform: translateX(720%);
     }
     &__navs--container {
       flex-direction: row;
@@ -131,7 +131,7 @@
       }
     }
   }
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 1280px) {
     justify-content: center;
     align-items: start;
     gap: 70px;
