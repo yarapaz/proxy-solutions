@@ -105,6 +105,8 @@
     }
     &__list {
       grid-column-gap: 26.2px;
+      justify-content: center;
+      align-items: flex-start;
       padding-left: 6.3%;
       padding-right: 6.5%;
       &__item {
