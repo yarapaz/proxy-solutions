@@ -7,19 +7,21 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto;
-  &__title--small {
-    font-family: $font-main;
-    font-weight: 400;
-    font-size: 1.4rem;
-    color: $lightblue;
-    margin-bottom: 12px;
-  }
-  &__title--medium {
-    font-family: $font-secondary;
-    font-weight: 700;
-    font-size: 2.4rem;
-    color: $black;
-    margin-bottom: 20px;
+  &__container {
+    &__title--small {
+      font-family: $font-main;
+      font-weight: 400;
+      font-size: 1.4rem;
+      color: $lightblue;
+      margin-bottom: 12px;
+    }
+    &__title--medium {
+      font-family: $font-secondary;
+      font-weight: 700;
+      font-size: 2.4rem;
+      color: $black;
+      margin-bottom: 20px;
+    }
   }
   &__p {
     font-family: $font-main;
@@ -27,7 +29,7 @@
     font-size: 1.8rem;
     color: $darkgrey;
     line-height: 1.67;
-    margin-bottom: 26px;
+    margin-bottom: 46px;
   }
   &__button {
     width: 76px;
@@ -36,13 +38,13 @@
     font-weight: 500;
     font-size: 2rem;
     border: solid 2px;
-    border-color: $orange;
-    background: none;
+    border: none;
+    background: $orange;
     border-radius: 22.5px;
     transition: all 0.2s ease-in-out;
     &__link {
       text-decoration: none;
-      color: $orange;
+      color: $white;
       padding: 10px 20px;
     }
   }
@@ -51,13 +53,17 @@
     margin-bottom: 10%;
     padding: 0% 5.1%;
     margin-bottom: 60px;
-    &__title--small {
-      font-size: 1.4rem;
-      margin-bottom: 18px;
-    }
-    &__title--medium {
-      font-size: 2.6rem;
-      margin-bottom: 39px;
+    &__container {
+      display: flex;
+      flex-direction: column-reverse;
+      &__title--small {
+        font-size: 1.4rem;
+        margin-bottom: 39px;
+      }
+      &__title--medium {
+        font-size: 2.6rem;
+        margin-bottom: 18px;
+      }
     }
     &__p {
       font-size: 2rem;
@@ -75,13 +81,16 @@
     margin-top: 5.8%;
     margin-bottom: 4.7%;
     padding: 0% 21.5%;
-    &__title--small {
-      font-size: 1.6rem;
-      margin-bottom: 17px;
-    }
-    &__title--medium {
-      font-size: 3.2rem;
-      margin-bottom: 40px;
+    &__container {
+      flex-direction: column;
+      &__title--small {
+        font-size: 1.6rem;
+        margin-bottom: 17px;
+      }
+      &__title--medium {
+        font-size: 3.2rem;
+        margin-bottom: 40px;
+      }
     }
     &__p {
       margin-bottom: 30px;
