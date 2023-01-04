@@ -4,6 +4,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto;
   align-items: center;
+  justify-items: center;
   text-align: center;
   background-color: $lighterblue;
   padding-top: 9%;
@@ -38,12 +39,11 @@
     }
   }
   &__button {
-    background-color: $orange;
+    background-color: $blue;
     border: none;
     border-radius: 22.5px;
     width: 184px;
     height: 45px;
-    margin: 0% 21.5%;
     margin-top: 3px;
     transition: all 0.2s ease-in-out;
     &__link {
@@ -87,9 +87,6 @@
     }
     &__button {
       width: 210px;
-      position: relative;
-      left: 36.5%;
-      margin: 0%;
       &__link {
         padding: 15px 40px;
       }
@@ -122,7 +119,6 @@
     &__button {
       width: 255px;
       text-transform: capitalize;
-      left: 40%;
       &__link {
         padding: 15px 60px;
       }

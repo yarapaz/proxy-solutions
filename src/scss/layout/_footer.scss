@@ -26,10 +26,11 @@
       position: relative;
       bottom: 6px;
       &__img {
-        width: 20.6px;
-        height: 24px;
+        width: 28px;
+        height: 32px;
         position: relative;
         top: 8px;
+        right: 1px;
       }
     }
   }
@@ -86,7 +87,7 @@
     color: $white;
     &__p2 {
       .fa-heart {
-        color: $orange;
+        color: $lightblue;
         font-size: 1.15rem;
         transform: scale(1, 0.8);
       }
@@ -94,13 +95,12 @@
   }
   @media all and (min-width: 768px) {
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     gap: 128px;
     padding: 6.5% 5.1% 5.2% 5.1%;
     &__arrow {
       bottom: 90.1%;
-      transform: translateX(720%);
     }
     &__navs--container {
       flex-direction: row;
@@ -138,7 +138,7 @@
     gap: 70px;
     padding: 3.9% 0% 3.5% 0%;
     &__arrow {
-      transform: translateX(0%);
+      bottom: 92%;
     }
     &__navs--container {
       gap: 120px;

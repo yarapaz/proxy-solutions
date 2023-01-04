@@ -1,7 +1,7 @@
 .tips {
   width: 100%;
-  margin-top: 20.3%;
-  padding: 0% 4.7%;
+  margin-top: 40px;
+  padding: 0px 35px;
   margin-bottom: 14%;
   background-color: $white;
   display: grid;
@@ -11,7 +11,7 @@
     font-family: $font-main;
     font-weight: 400;
     font-size: 1.4rem;
-    color: $lightblue;
+    color: $blue;
     margin-bottom: 12px;
   }
   &__title--medium {
@@ -36,13 +36,13 @@
     font-weight: 500;
     font-size: 2rem;
     border: solid 2px;
-    border-color: $orange;
+    border-color: $blue;
     background: none;
     border-radius: 22.5px;
     transition: all 0.2s ease-in-out;
     &__link {
       text-decoration: none;
-      color: $orange;
+      color: $blue;
       padding: 10px 20px;
     }
   }
