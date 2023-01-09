@@ -28,7 +28,7 @@ Furthermore implementing the following interactions:
 
 4. Buttons pseudo-class _hover_ must have a _transform_ attribute as an extra bonus to change the color of the button when clicking on it.
 
-5. (**BONUS: Include an animation on Footer's arrow button**)
+5. Footer's arrow button must include an animation
 
 Following all these steps the final product is the one you can find in the Github Page link attached on the main page of this repository.
 
