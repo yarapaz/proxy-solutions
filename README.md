@@ -1,8 +1,8 @@
 ![Proxy Solutions](./docs/assets/images/proxy-solutions-1.jpg)
 
-# Anonymous Proxy
+# Proxy Solutions
 
-Anonymous Proxy is a HTML and SASS (SCSS) web layout project built and developed by Yara Paz Gordillo (junior Front End Developer) as part of her final evaluation of Adalab's Web Programming Bootcamp Module 1.
+Proxy Solutions is a HTML and SASS (SCSS) web layout project built and developed by Yara Paz Gordillo (junior Front End Developer) as personal project of her final evaluation of Adalab's Web Programming Bootcamp Module 1.
 
 In this project you will find a complete responsive Front-End solutions website following the subsequent guidelines:
 
@@ -10,7 +10,7 @@ In this project you will find a complete responsive Front-End solutions website 
 
 2. "Hero" section must be edited using **Flexbox**.
 
-3. "Tips" section must be edited using either **Flexbox** or **Grid** (in this case, we decided to work with Grid to learn more about its properties and develop half of the project using Flexbox and the other hal using Grid).
+3. "Tips" section must be edited using either **Flexbox** or **Grid** (in this case, wit was decided to work with Grid to learn more about its properties and develop half of the project using Flexbox and the other half using Grid).
 
 4. "Reasons" section must be edited using **Grid**.
 
@@ -26,7 +26,7 @@ Furthermore implementing the following interactions:
 
 3. All links on "Footer" section must lead to Adalab's website.
 
-4. Buttons pseudo-class _hover_ must have a _transform_ attribute (**BONUS: include a transition to that _Transform_ as well**). As an extra bonus we included as well an _active_ pseudo-class to change the color of the button when clicking it.
+4. Buttons pseudo-class _hover_ must have a _transform_ attribute (**BONUS: include a transition to that _Transform_ as well**). As an extra bonus an _active_ pseudo-class to change the color of the button when clicking was included.
 
 5. (**BONUS: Include an animation on Footer's arrow button**)
 
