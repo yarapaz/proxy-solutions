@@ -1,4 +1,4 @@
-![Proxy Solutions](./docs/assets/images/proxy solutions 1.jpg)
+![Proxy Solutions](./docs/assets/images/proxy-solutions-1.jpg)
 
 # Anonymous Proxy
 
@@ -16,7 +16,7 @@ In this project you will find a complete responsive Front-End solutions website 
 
 5. "Footer" section must be edited using **Flexbox** and all nav items must lead to Adalab's website.
 
-![Proxy Solutions 2](./docs/assets/images/proxy solutions 2.jpg)
+![Proxy Solutions 2](./docs/assets/images/proxy-solutions-2.jpg)
 
 Furthermore implementing the following interactions:
 
