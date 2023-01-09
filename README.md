@@ -1,6 +1,8 @@
+![Proxy Solutions](./docs/assets/images/proxy solutions 1.jpg)
+
 # Anonymous Proxy
 
-Anonymous Proxy is a HTML and SASS (SCSS) web layout project built and developed by Yara Paz Gordillo (future Front End Developer) as part of her final evaluation of Adalab's Web Programming Bootcamp Module 1.
+Anonymous Proxy is a HTML and SASS (SCSS) web layout project built and developed by Yara Paz Gordillo (junior Front End Developer) as part of her final evaluation of Adalab's Web Programming Bootcamp Module 1.
 
 In this project you will find a complete responsive Front-End solutions website following the subsequent guidelines:
 
@@ -14,6 +16,8 @@ In this project you will find a complete responsive Front-End solutions website 
 
 5. "Footer" section must be edited using **Flexbox** and all nav items must lead to Adalab's website.
 
+![Proxy Solutions 2](./docs/assets/images/proxy solutions 2.jpg)
+
 Furthermore implementing the following interactions:
 
 1. The arrow button on "Hero" section must lead to the "Reasons" section.
@@ -26,6 +30,6 @@ Furthermore implementing the following interactions:
 
 5. (**BONUS: Include an animation on Footer's arrow button**)
 
-Following all these steps the final product is the one you can find attached as a Github Page on the main page of this repository.
+Following all these steps the final product is the one you can find in the Github Page link attached on the main page of this repository.
 
-Thanks for your attention.
+Thanks for your attention and I hope you enjoy this mock up!
